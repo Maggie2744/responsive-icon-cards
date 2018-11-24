@@ -165,26 +165,31 @@ p {
     font-size: 130%;
   }
 
-  .card-body {
-    display: flex;
-  }
+  .cards
 
-  .card {
-    display: inline;
+  .card-body {
+    display: inline-block;
   }
 
   .card-image {
     display: inline;
-  }
-
-  h2 {
-    margin-bottom: 0;
+    float: left;
+    width: 25%;
   }
 
   img {
-    margin-right: 25px;
-    margin: 1em;
-    margin-top: 50%;
+    display: block;
+    margin-top: 25%;
+  }
+
+  .card {
+    display: inline;
+    float: left;
+    width: 75%;
+  }
+
+  h2 {
+    margin: 0;
   }
 
 }
