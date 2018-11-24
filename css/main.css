@@ -58,19 +58,23 @@ p {
   }
 
   .card-body {
-    display: inline;
+    display: flex;
   }
 
   .card {
     display: inline;
   }
 
-  img {
+  .card-image {
     display: inline;
   }
 
   h2 {
     margin-bottom: 0;
+  }
+
+  img {
+    margin-right: 25px;
   }
 
 }
