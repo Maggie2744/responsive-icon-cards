@@ -41,6 +41,7 @@ img {
 
 .card-body h2 {
   margin-bottom: 0;
+  margin-top: .75em;
 }
 
 .card-body p {
@@ -84,10 +85,6 @@ h2:nth-child(1) {
     float: left;
     width: 85%;
     margin-left: 0;
-  }
-
-  h2 {
-    margin-bottom: 0;
   }
 
 }
