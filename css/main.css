@@ -25,6 +25,7 @@ html {
 
 .card-body {
   display: inline-block;
+  margin-bottom: .5em;
 }
 
 .card-body h2 {
