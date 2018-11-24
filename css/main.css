@@ -58,29 +58,31 @@ p {
     margin: 0 0 1.3rem;
   }
 
+  .cards
+
   .card-body {
     display: inline-block;
-    margin: 0;
   }
 
   .card-image {
-    display: block;
+    display: inline;
     float: left;
-    width: 25%;
+    width: 15%;
+  }
+
+  img {
+    display: inline;
   }
 
   .card {
-    display: inline-block;
+    display: inline;
     float: left;
-    width: 75%;
+    width: 85%;
+    margin-left: 0;
   }
 
   h2 {
     margin-bottom: 0;
-  }
-
-  img {
-    margin-right: 25px;
   }
 
 }
@@ -97,36 +99,34 @@ p {
     margin: 0 0 1.4rem;
   }
 
-  ul {
-    display: inline;
-  }
-
-  .cards {
-    width: 100%;
-  }
-
-  .card-body {
-    display: inline;
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-  }
-
   .card {
-    display: inline-block;
-  }
-
-  .card-image {
-    display: block;
+    display: inline;
+    width: 33.33;
   }
 
   img {
+    display: block;
+    width: 100%;
+    max-width: 50px;
     margin: 0 auto;
+  }
+
+  .cards {
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
   }
 
   h2 {
     margin-bottom: 0;
     margin-top: .75em;
+  }
+
+  p {
+    display: inline-block;
+    margin-top: 0;
+    width: 100%;
   }
 
 }
