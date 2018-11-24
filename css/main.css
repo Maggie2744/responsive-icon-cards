@@ -63,7 +63,7 @@ html {
   }
 
   .card-img {
-    display: inline;
+    display: inline-block;
     float: left;
     width: 15%;
   }
@@ -73,7 +73,7 @@ html {
   }
 
   .card {
-    display: inline;
+    display: inline-block;
     float: left;
     width: 85%;
     margin-left: 0;
@@ -105,7 +105,7 @@ html {
   }
 
   .card-body {
-    display: inline;
+    display: inline-block;
     width: 33.33%;
     float: left;
   }
@@ -123,7 +123,7 @@ html {
   }
 
   .card {
-    display: inline;
+    display: inline-block;
     width: 100%;
   }
 
@@ -165,14 +165,12 @@ html {
     font-size: 130%;
   }
 
-  .cards
-
   .card-body {
     display: inline-block;
   }
 
   .card-img {
-    display: inline;
+    display: inline-block;
     float: left;
     width: 25%;
   }
@@ -183,7 +181,7 @@ html {
   }
 
   .card {
-    display: inline;
+    display: inline-block;
     float: left;
     width: 75%;
   }
