@@ -58,8 +58,6 @@ p {
     margin: 0 0 1.3rem;
   }
 
-  .cards
-
   .card-body {
     display: inline-block;
   }
@@ -99,9 +97,22 @@ p {
     margin: 0 0 1.4rem;
   }
 
-  .card {
+  .cards {
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .card-body {
     display: inline;
-    width: 33.33;
+    width: 33.33%;
+    float: left;
+  }
+
+  .card-image {
+    display: block;
+    width: 100%;
   }
 
   img {
@@ -111,11 +122,9 @@ p {
     margin: 0 auto;
   }
 
-  .cards {
-    display: inline-block;
+  .card {
+    display: inline;
     width: 100%;
-    list-style-type: none;
-    padding: 0;
   }
 
   h2 {
