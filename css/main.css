@@ -151,4 +151,26 @@ p {
     font-size: 130%;
   }
 
+  .card-body {
+    display: flex;
+  }
+
+  .card {
+    display: inline;
+  }
+
+  .card-image {
+    display: inline;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  img {
+    margin-right: 25px;
+    margin: 1em;
+    margin-top: 50%;
+  }
+
 }
