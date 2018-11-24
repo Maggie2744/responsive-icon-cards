@@ -5,6 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
+  font-size: .875em;
 }
 
 @-moz-viewport { width: device-width; scale: 1; }
