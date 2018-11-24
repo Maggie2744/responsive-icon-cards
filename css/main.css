@@ -59,15 +59,19 @@ p {
   }
 
   .card-body {
-    display: flex;
+    display: inline-block;
   }
 
   .card {
     display: inline;
+    float: left;
+    width: 85%;
   }
 
   .card-image {
     display: inline;
+    float: left;
+    width: 15%;
   }
 
   h2 {
@@ -75,7 +79,10 @@ p {
   }
 
   img {
-    margin-right: 25px;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }
