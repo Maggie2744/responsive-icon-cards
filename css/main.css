@@ -16,11 +16,6 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
 .card {
   display: block;
   width: 100%;
@@ -36,6 +31,8 @@ img {
 
 .cards {
   width: 100%;
+  list-style-type: none;
+  padding: 0;
 }
 
 h2 {
@@ -44,6 +41,7 @@ h2 {
 }
 
 p {
+  display: inline-block;
   margin-top: 0;
   width: 100%;
 }
