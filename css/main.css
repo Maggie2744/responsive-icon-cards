@@ -57,7 +57,21 @@ p {
     margin: 0 0 1.3rem;
   }
 
+  .card-body {
+    display: inline;
+  }
 
+  .card {
+    display: inline;
+  }
+
+  img {
+    display: inline;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
 
 }
 
