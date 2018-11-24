@@ -16,6 +16,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .card {
   display: block;
   width: 100%;
@@ -89,6 +90,38 @@ p {
   h2,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  ul {
+    display: inline;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .card-body {
+    display: inline;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .card {
+    display: inline-block;
+  }
+
+  .card-image {
+    display: block;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    margin-top: .75em;
   }
 
 }
