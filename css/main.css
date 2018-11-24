@@ -18,6 +18,36 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.card {
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 50px;
+}
+
+.cards {
+  width: 100%;
+}
+
+.card-image {
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
